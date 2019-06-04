@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        //  =====> 转换为string类型  toString() 或者 +
+        // null 转换成String  null
+        // undefined 转换成String  undefined
+        // Boolean 转换成String
+        // Number 转换成String
+        console.log('hello' + null); 
+        console.log('hello' + undefined);
+        console.log(true.toString());
+        console.log(false.toString());
+        console.log(1 + '不凡');
+
+
+        // =====> Boolean()
+        //  数字 0
+        // NaN
+        // " ",空字符串
+        // false
+        // undefined
+        // null 
+        console.log(Boolean(NaN));
+        console.log(Boolean(''));
+        console.log(Boolean(undefined));
+        console.log(Boolean(null));
+        console.log(Boolean(0));
+        console.log(Boolean({}));
+
+        // ====>number类型 Number() parseInt() parseFloat()
+        // 数字类型的字串符 可以转成Number 类型
+        console.log(Number('-123.123'));
+        console.log(Number('  123.13'));
+        console.log(Number(""));
+        console.log(Number(true));
+        console.log(Number(false));
+
+
+        // parseInt() 转换成整数 只取整数部分
+        console.log(parseInt('123.9'));
+        console.log(parseInt('  123a5'));
+        console.log(parseInt(""));
+
+        // parseFloat() 转换成小数
+        console.log(parseFloat('123.99.88'));
+        console.log(parseFloat('123.1a2'));
+
+
+
+
+
+     </script>
+</body>
+</html>

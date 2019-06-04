@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 数据分类 分为两大类 基本数据类型(原始数据类型)  和  复杂数据类型(引用数据类型) -->
+    <script>
+        // 基本数据类型 有六种
+        // 字符串 string类型
+        // 用引号或者双引号包裹起来
+        // 注意引号不能嵌套 但是 单双引号 可以混用
+        var str = '我是一个字串符'
+        var str2 = "不凡学院";
+        // 把计算结果 赋值给str3
+        // + 起到了拼接作用
+        var str3 = str + str2;
+        console.log(str3);
+        // 数字 number类型
+        // 整数 小数(浮点数)
+        var num = 20;
+        var age = 18;
+        var floatNum = 12.9;
+        console.log(num);
+        // console.log(str - str2);  计算不出来结果 返回nan
+        // 无穷大 Infinity -Infinity
+        // Nan not a number 
+
+        // 布尔值  Boolean类型
+        // true(真/符合条件)或者false(假/不符合条件)   条件判断常用
+        var sex = true;
+        console.log(sex);
+        console.log('true');
+        // undefined类型
+        // 当定义了一个变量未初始化,默认的也会给他初始化成 undefined值
+        var firstname;
+        console.log(firstname);
+        // null 类型
+        // 空值
+        var timer = null;
+        console.log(timer);
+        // es6中新增的数据类型
+        // symbol 类型
+    </script>
+</body>
+</html>
